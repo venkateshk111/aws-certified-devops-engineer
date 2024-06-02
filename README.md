@@ -2,6 +2,20 @@
 AWS Certified DevOps Engineer Guide
 
 
+## AWS Organizations
+
+- Account Factory for terraform 
+    - **To enable the Enterprise Support option, set the following feature flag to True** in your AFT deployment input configuration.
+        - *`aft_feature_enterprise_support=true`*
+
+ - Service Control Policies:
+    - Service Control Policies (SCPs) are a type of policy that can be used to manage permissions across multiple AWS accounts in an organization.
+    - Choose SCP if you want to apply some permissions at at the account level
+    - Attach at the AWS account level from the Organization account, can have ALLOW/DENY permissions
+
+## AWS IAM
+ - IAM permission boundaries : provide maximum permission a role can have , does not have DENY option
+
 ## Lambda
  - Reserved concurrency Vs Provisioned Concurrency ?
 
@@ -40,19 +54,41 @@ AWS Certified DevOps Engineer Guide
 
 
 
+## AWS Elastic Beanstalk
+ - Blue/Green deployments
+
+
+## Amazon EvenBridge
+
+## Amazon Systems Manager
+
+## Encryption 
+
 ## AWS Config
  - AWS Config can be used to meet your organization compliance requirements like resource tagging etc etc
  - Use managed rules where ever applicable
  - AWS Config allows you to develop custom rules using AWS Lambda. 
     - Example: You can create a custom rule that checks the last rotation date of each AWS KMS key and publishes a message to an Amazon SNS topic if a key has not been rotated in the last 90 days
 
-
-## Encryption 
-
 ## AWS GuardDuty
  - Amazon GuardDuty is a **threat detection service** that **continuously monitors for malicious activity and unauthorized behavior**
 
 ## AWS WAF
 
+## Amazon Inspector 
+
+
 ## AWS FireWall Manager
  - AWS Firewall Manager allows you to **centrally configure and manage AWS WAF rules across your accounts and applications in AWS Organizations**.
+
+
+
+
+
+
+
+
+
+ ## Links
+
+ https://aws.amazon.com/blogs/devops/using-codedeploy-environment-variables/ 
