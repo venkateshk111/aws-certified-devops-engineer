@@ -3,6 +3,8 @@ AWS Certified DevOps Engineer Guide
 
 
 ## AWS Organizations
+ - Service Control Policies (SCP)
+    - SCPs are used to manage permissions in AWS Organizations
 
 - Account Factory for terraform 
     - **To enable the Enterprise Support option, set the following feature flag to True** in your AFT deployment input configuration.
@@ -28,6 +30,10 @@ AWS Certified DevOps Engineer Guide
 
  - **Lambda function concurrency limit** : This is the overall limit on the number of concurrent executions across all functions in your account. By default, this limit is 1000, but it can be increased by contacting AWS Support.
 
+
+## Amazon DynamoDB
+ - DynamoDB global table, will replicate the DynamoDB data across multiple Regions, ensuring fast, local access to data.
+
 ## Amazon SQS 
  - *`ApproximateAgeOfOldestMessage`*
  - *`NumberOfMessagesSent`*
@@ -38,6 +44,7 @@ AWS Certified DevOps Engineer Guide
 
 
 ## CodeBuild
+ - `buildspec.yml` file is used to define **build commands and related settings**
 
 
 ## CodeDeploy
@@ -81,7 +88,12 @@ AWS Certified DevOps Engineer Guide
 ## AWS FireWall Manager
  - AWS Firewall Manager allows you to **centrally configure and manage AWS WAF rules across your accounts and applications in AWS Organizations**.
 
+## AWS Service Catalog
+ - create approved CloudFormation templates.
 
+## NAT Gateway
+ - **NAT gateways CANNOT span multiple Availability Zones**. 
+ - **Each NAT gateway is created in a specific Availability Zone** and implemented with redundancy in that zone.
 
 
 
