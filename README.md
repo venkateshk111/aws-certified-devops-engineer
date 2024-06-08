@@ -76,13 +76,20 @@ AWS Certified DevOps Engineer Guide
  - Use managed rules where ever applicable
  - AWS Config allows you to develop custom rules using AWS Lambda. 
     - Example: You can create a custom rule that checks the last rotation date of each AWS KMS key and publishes a message to an Amazon SNS topic if a key has not been rotated in the last 90 days
+ - AWS Config **`conformance packs`** are designed to **manage a set of AWS Config rules and remediation actions in a standardized way across multiple accounts**
 
 ## AWS GuardDuty
  - Amazon GuardDuty is a **threat detection service** that **continuously monitors for malicious activity and unauthorized behavior**
+ - malicious activity
+    - compromised EC2 instances
+    - suspicious network activity 
+    - unusual API activity in AWS accounts
 
 ## AWS WAF
 
 ## Amazon Inspector 
+ - Amazon Inspector is a **security assessment service** that helps **identify vulnerabilities in EC2 instances.** 
+ - By using Amazon Inspector, the company can be **notified of new vulnerabilities**
 
 
 ## AWS FireWall Manager
