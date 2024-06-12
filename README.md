@@ -82,15 +82,16 @@ AWS Certified DevOps Engineer Guide
  - Amazon GuardDuty is a **threat detection service** that **continuously monitors for malicious activity and unauthorized behavior**
  - malicious activity
     - compromised EC2 instances
-    - suspicious network activity 
+    - suspicious network activity, port scanning
     - unusual API activity in AWS accounts
-
-## AWS WAF
 
 ## Amazon Inspector 
  - Amazon Inspector is a **security assessment service** that helps **identify vulnerabilities in EC2 instances.** 
  - By using Amazon Inspector, the company can be **notified of new vulnerabilities**
+ - helps improve the security and compliance of **applications deployed on EC2**
 
+
+## AWS WAF
 
 ## AWS FireWall Manager
  - AWS Firewall Manager allows you to **centrally configure and manage AWS WAF rules across your accounts and applications in AWS Organizations**.
