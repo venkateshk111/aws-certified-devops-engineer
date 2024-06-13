@@ -78,6 +78,9 @@ AWS Certified DevOps Engineer Guide
     - Example: You can create a custom rule that checks the last rotation date of each AWS KMS key and publishes a message to an Amazon SNS topic if a key has not been rotated in the last 90 days
  - AWS Config **`conformance packs`** are designed to **manage a set of AWS Config rules and remediation actions in a standardized way across multiple accounts**
 
+## AWS Trusted Advisor
+ - Check AWS Service limits
+
 ## AWS GuardDuty
  - Amazon GuardDuty is a **threat detection service** that **continuously monitors for malicious activity and unauthorized behavior**
  - malicious activity
